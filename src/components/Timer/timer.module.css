@@ -1,0 +1,39 @@
+.container {
+  position: fixed;
+  display: inline-block;
+  right: 80px;
+  top: 0;
+  background-color: rgb(34, 42, 49);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: azure;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+}
+
+.unit {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.label {
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+}

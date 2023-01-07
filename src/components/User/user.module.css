@@ -1,0 +1,42 @@
+.item {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 200ms linear;
+}
+
+.btn:hover {
+  color: #e8e2c1;
+  scale: 1.1;
+}
+
+.img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.userInfo {
+  margin-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: #e8e2c1;
+  max-width: 400px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.text {
+  font-weight: bold;
+  font-style: italic;
+}
